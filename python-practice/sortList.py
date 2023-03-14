@@ -16,7 +16,7 @@ while swapped:
     swapped = False
     for j in range(len(my_list) - 1):
         if my_list[j] > my_list[j + 1]:
-            swappped = True
+            swapped = True
             my_list[j], my_list[j + 1] = my_list[j + 1], my_list[j]
-print(\nSorted)
+print("\nSorted")
 print(my_list)
