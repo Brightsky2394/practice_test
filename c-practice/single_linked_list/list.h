@@ -16,5 +16,6 @@ void print_node(node_t *head);
 void count_node(node_t *head);
 void del_first(node_t **head);
 void del_last(node_t *head);
+void del_pos(node_t **head, int pos);
 
 #endif
