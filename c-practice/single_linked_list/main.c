@@ -31,5 +31,11 @@ int main(void){
     print_node(head);
     printf("\nNumber of remaining node: ");
     count_node(head);
+    printf("\nAfter the deletion of entire linked list\n");
+    del_list(&head);
+    if (head == NULL)
+      printf("Linked list is successfully deleted");
+    printf("\nNumber of remaining node: ");
+    count_node(head);
     return (0);
 }
