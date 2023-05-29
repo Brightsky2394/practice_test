@@ -18,4 +18,6 @@ void del_first(node_t **head);
 void del_last(node_t *head);
 void del_pos(node_t **head, int pos);
 void del_list(node_t **head);
+void reverse_list(node_t **head);
+
 #endif

@@ -18,6 +18,9 @@ int main(void){
     add_at_pos(head, d, pos);
     printf("\nLinked list value before the deletion of first and last node: ");
     print_node(head);
+    printf("\nLinked list value in reverse form before the deletion of first and last node: ");
+    reverse_list(&head);
+    print_node(head);
     printf("\nNumber of available node: ");
     count_node(head);
     printf("\nLinked list value after the deletion of first node and last node: ");
