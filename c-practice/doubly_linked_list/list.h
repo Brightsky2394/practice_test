@@ -14,5 +14,7 @@ typedef struct node{
 void add_to_empty(node_t **head, int data);
 void print_node(node_t *head);
 void add_at_beg(node_t **head, int d);
+void add_at_end(node_t **head, int d);
+void add_at_pos(node_t **head, int d, int pos);
 #endif
 
